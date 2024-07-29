@@ -39,12 +39,25 @@ body {
 .buttonContainer {
     display: grid;
     grid-template-columns: auto auto auto;
+    gap: 10px 20px;
 }
 
 .buttonContainer div button {
     width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+    transition: ease-in-out 0.5s;
+}
+.buttonContainer div button:hover {
+    background-color: gray;
+    cursor: pointer;
 }
 
 #display {
-    
+    padding: 20px;
+    width: 600px;
+    border-radius: 20px;
+    margin: 10px;
+    background-color: white;
+    font-size: large;
 }
